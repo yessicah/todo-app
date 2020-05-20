@@ -8,4 +8,4 @@
 $ docker-compose up --build -d
 ```
 
-2. Open in localhost:3000
+2. Open in http://localhost:3000/
