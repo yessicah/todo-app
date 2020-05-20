@@ -1,0 +1,17 @@
+version: '2'
+services:
+    app:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        image: app-todo
+        container_name: TODO-List-App
+        restart: unless-stopped
+        ports:
+            - '3000:80'
+        networks:
+            - app-network
+        command:  nginx -g "daemon off;"
+networks:
+    app-network:
+        driver: bridge

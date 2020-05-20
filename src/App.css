@@ -1,0 +1,30 @@
+.App {
+    text-align: center;
+}
+
+.thumbs.down{
+    color:#f24235;
+    margin: 0 20px 0 20px;
+}
+
+.thumbs.up{
+    color:#16b841;
+    margin: 0 20px 0 20px;
+}
+
+.not-click{
+    pointer-events: none;
+}
+
+.logout-button{
+    font-size: 22px !important;
+    padding-top: 10px !important;
+}
+
+.header-app{
+    margin-top: 10px !important;
+}
+
+.user-name{
+    margin-left: 20px;
+}
